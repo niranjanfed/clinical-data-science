@@ -1258,8 +1258,7 @@ For two finite sets:
 
 $$
 \boxed{
-n(A\cup B)
-=
+n(A\cup B)=
 n(A)+n(B)-n(A\cap B)
 }
 $$
