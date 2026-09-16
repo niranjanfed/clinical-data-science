@@ -52,10 +52,8 @@ $$
 \{1,2,3,4\}
 $$
 
-and:
-
 $$
-\{x : x \text{ is a natural number less than } 5\}
+\{x:x \text{ is a natural number less than }5\}
 $$
 
 The following are not well-defined sets:
@@ -82,7 +80,13 @@ $$
 a,b,c,\ldots
 $$
 
-The symbol $\in$ means **"belongs to"** or **"is an element of"**.
+The symbol
+
+$$
+\in
+$$
+
+means **"belongs to"** or **"is an element of"**.
 
 If:
 
@@ -96,7 +100,13 @@ $$
 2\in A
 $$
 
-The symbol $\notin$ means **"does not belong to"**.
+The symbol
+
+$$
+\notin
+$$
+
+means **"does not belong to"**.
 
 Therefore:
 
@@ -169,7 +179,11 @@ $$
 
 Repeated elements are written only once.
 
-For example, the letters in **ASSIGNMENT** form the set:
+For example, the letters in:
+
+`ASSIGNMENT`
+
+form the set:
 
 $$
 \{A,S,I,G,N,M,E,T\}
@@ -184,7 +198,7 @@ In the set-builder method, a set is described using a property satisfied by its 
 Example:
 
 $$
-A=\{x : x \text{ is a vowel of the English alphabet}\}
+A=\{x:x\text{ is a vowel of the English alphabet}\}
 $$
 
 The symbol `:` is read as **"such that"**.
@@ -192,7 +206,7 @@ The symbol `:` is read as **"such that"**.
 Another example:
 
 $$
-A=\{x : x \text{ is a natural number and } x \text{ is a multiple of } 3\}
+A=\{x:x\text{ is a natural number and }x\text{ is a multiple of }3\}
 $$
 
 This represents:
@@ -222,7 +236,7 @@ Therefore:
 $$
 X=Y
 \iff
-X\subseteq Y \text{ and } Y\subseteq X
+X\subseteq Y\text{ and }Y\subseteq X
 $$
 
 The order in which elements are written does not matter.
@@ -277,7 +291,7 @@ $$
 A\subseteq B
 $$
 
-and:
+and
 
 $$
 A\neq B
@@ -374,7 +388,7 @@ $$
 Example:
 
 $$
-A=\{x : x \text{ is an even integer and } x^2=9\}
+A=\{x:x\text{ is an even integer and }x^2=9\}
 $$
 
 has no elements, so:
@@ -397,7 +411,7 @@ $$
 \emptyset
 $$
 
-and:
+and
 
 $$
 \{\emptyset\}
@@ -530,8 +544,8 @@ Two sets are equal only when they contain exactly the same elements.
 
 Thus:
 
-- **Equal sets** → same elements.
-- **Equivalent sets** → same cardinality.
+- Equal sets → same elements.
+- Equivalent sets → same cardinality.
 
 ---
 
@@ -573,9 +587,7 @@ $$
 
 The universal set depends on the context.
 
-For example, if we are discussing students in a class, the universal set could be described in words as:
-
-> $U$ = the set of all students in the class.
+For example, if we are discussing students in a class, the universal set $U$ could be the set of all students in the class.
 
 ---
 
@@ -682,10 +694,16 @@ $$
 The difference $A-B$ consists of elements that are in $A$ but not in $B$.
 
 $$
-A-B=\{x : x\in A,\ x\notin B\}
+A-B=\{x:x\in A,\ x\notin B\}
 $$
 
-Similarly, $B-A$ contains elements in $B$ but not $A$.
+Similarly:
+
+$$
+B-A
+$$
+
+contains elements in $B$ but not $A$.
 
 ---
 
@@ -900,11 +918,7 @@ In words:
 
 > $R$ is the set of all sets that are not members of themselves.
 
-Now ask:
-
-$$
-R\in R?
-$$
+Now ask whether $R\in R$.
 
 If:
 
@@ -1258,7 +1272,8 @@ For two finite sets:
 
 $$
 \boxed{
-n(A\cup B)=
+n(A\cup B)
+=
 n(A)+n(B)-n(A\cap B)
 }
 $$
@@ -1536,6 +1551,8 @@ because ordered pairs preserve order.
 
 # 30. Data Science Connection
 
+> **Note:** This section is a conceptual connection to data science and is not part of the original IGNOU course content.
+
 Set theory provides foundational ideas that appear throughout data science.
 
 Examples include:
@@ -1550,11 +1567,9 @@ Examples include:
 - classification into groups
 - Cartesian products in combinatorics and feature construction
 
-### Clinical example
+## Clinical/Healthcare Example
 
-Let $A$ represent the set of patients receiving Drug A.
-
-Let $B$ represent the set of patients experiencing an ADR.
+Let $A$ represent the set of patients receiving Drug A, and let $B$ represent the set of patients experiencing an adverse drug reaction (ADR).
 
 Then:
 
@@ -1562,7 +1577,7 @@ $$
 A\cap B
 $$
 
-represents patients who are receiving Drug A **and** experiencing an ADR.
+represents patients receiving Drug A who also experienced an ADR.
 
 Similarly:
 
@@ -1570,9 +1585,7 @@ $$
 A\cup B
 $$
 
-represents patients who are receiving Drug A, experiencing an ADR, or both.
-
-> **Note:** This is a conceptual data-science/clinical connection and is not additional IGNOU course content.
+represents patients belonging to either group (or both) — that is, patients who received Drug A, patients who experienced an ADR, or patients who did both.
 
 ---
 
@@ -1617,8 +1630,10 @@ Before considering Unit 1 complete, I should be able to:
 
 # 32. Source
 
-**Primary source:**
+Primary source:
 
-IGNOU, MCS-061 Mathematical Foundations-I, Block 1, Unit 1 — Introduction to Sets.
+**IGNOU, MCS-061 Mathematical Foundations-I, Block 1, Unit 1 — Introduction to Sets.**
 
 This document is a study note derived from the IGNOU study material and is not a replacement for the official university material.
+
+---
